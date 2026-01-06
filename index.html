@@ -162,14 +162,15 @@
                         <div class="section-inner">
                             <h2 class="heading">Latest Projects</h2>
                             <div class="content">
+                                <div class="item row">
+                                    <span class="col-md-4 col-sm-4 col-xs-12">
+                                        <img class="img-responsive project-image" src="./assets/cleeme.webp" alt="Twinby-Thumbnail" title="Twinby" width="300" height="225">
+                                    </span>
 
-                                <div class="item featured text-center">
-                                    <h3 class="title">Cleeme</h3>
-                                    <p class="summary">Cleaning Service Platform</p>
-
-                                    <div class="desc text-left">
+                                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                        <h3 class="title">Cleeme</h3>
                                         <p>Backend platform for managing cleaning service orders, partner registration, and automatic executor matching.</p>
-                                        <p><b>Technology Stack</b> - Golang, PostgreSQL, REST<br>
+                                        <p><b>Technology Stack</b> - Golang, PostgreSQL, Redis, REST, AWS SDK, PDF<br>
                                         <b>Team Size - </b>3
                                         </p>
                                     </div>
@@ -178,13 +179,14 @@
                                 <hr class="divider">
                                 <div class="item row">
                                     <a class="col-md-4 col-sm-4 col-xs-12" href="https://twinby.ru/" target="_blank">
-                                        <img class="img-responsive project-image" src="./assets/twinby.png" alt="Twinby - Dating app-Thumbnail" title="Twinby - Dating app." width="300" height="225">
+                                        <img class="img-responsive project-image" src="./assets/twinby.png" alt="Twinby - Dating app-Thumbnail" title="Twinby" width="300" height="225">
                                     </a>
                                     <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                        <h3 class="title"><a href="https://twinby.ru/" target="_blank">Twinby - Dating app</a></h3>
+                                        <h3 class="title"><a href="https://twinby.ru/" target="_blank">Twinby</a></h3>
                                         <p>Dating service - An app for finding partners based on psychological compatibility.</p>
-                                        <p><b>Technology Stack</b> - Golang, Nats, CockroachDB, Kubernetes, Prometheus, Grafana, Git, Linux<br>
-                                        <b>Team Size - </b> 7</p>
+                                        <p><b>Technology Stack</b> - Golang, Nats, CockroachDB, Redis, Kubernetes, Prometheus, Grafana, AWS SDK<br>
+                                        <b>Team Size - </b> 7
+                                        </p>
                                     </div>
                                     <!--//desc-->
                                 </div>
@@ -200,32 +202,43 @@
                         <div class="section-inner">
                             <h2 class="heading">Other Projects</h2>
                             <div class="content">
-                                <div class="item">
-                                    <h3 class="title"><a href="https://www.facebook.com/chatbot.gifter/" target="_blank">Diagio Facebook Chatbot</a></h3>
-                                    <p class="summary">Created Interactive chatbot simple gifting experience<br><b>Technology Stack</b> - PHP, MySQL, Git, Facebook Messenger API</p>
-                                    <p><a class="more-link" href="https://www.facebook.com/chatbot.gifter/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12" href="https://doc4b.ru/" target="_blank">
+                                        <img class="img-responsive project-image" src="./assets/doc4b.webp" alt="DOC4B-Thumbnail" title="DOC4B." width="300" height="225">
+                                    </a>
+                                    <h3 class="title"><a href="https://doc4b.ru/" target="_blank">DOC4B</a></h3>
+                                    <p class="summary">A service for paperless document signing with individuals<br>
+                                    <b>Technology Stack</b> - Golang, PostgreSQL, AWS SDK, PDF, OTP<br>
+                                    <b>Team Size - </b> 2
+                                    </p>
+                                    <p><a class="more-link" href="https://doc4b.ru/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
                                 </div>
-                                <!--<div class="item">
-                                    <h3 class="title"><a href="http://luminousindia.com" target="_blank">Custom Content Management System</a></h3>
-                                    <p class="summary">Created Custom CMS from scratch to manage skhgroup.co.in, etylbschool.com, top10pokersites.co.uk, comparebestpokersites.com, uksbestbettingsites.com and luminousindia.com/think-switch<br><b>Technology Stack</b> - PHP, MySQL, Javascript, Git, Linux platform.</p>
-                                    <p><a class="more-link" href="http://luminousindia.com" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                </div>-->
-                                <!--//item-->
-                                <div class="item">
-                                    <h3 class="title"><a href="https://rohankhudedev.github.io/portfolio/?utm_source=chatgpt.com#">Python Twitter API and Scraping</a><!--<span class="label label-theme">Open Source</span>--></h3>
-                                    <p class="summary">A CLI tool for fetching the Tweet and User details in bulk<br><b>Technology Stack - </b> Python, Tweepy(API library) and Scrapy(Scraping library)</p>
-                                    <p><a class="more-link" href="https://rohankhudedev.github.io/portfolio/?utm_source=chatgpt.com#" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                <hr class="divider">
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12" href="https://rarus.ru/1c-restoran/restart-platyezhnyy-terminal/" target="_blank">
+                                        <img class="img-responsive project-image" src="./assets/self-service-terminal.jpg" alt="RestArt: Self-service kiosk-Thumbnail" title="RestArt: Self-service kiosk." width="300" height="225">
+                                    </a>
+                                    <h3 class="title"><a href="https://rarus.ru/1c-restoran/restart-platyezhnyy-terminal/" target="_blank">RestArt: Self-service kiosk</a></h3>
+                                    <p class="summary">Self-service terminal for cafes<br>
+                                    <b>Technology Stack</b> - Delphi, SQLite, Firemonkey, REST<br>
+                                    <b>Team Size - </b> 1
+                                    </p>
+                                    <p><a class="more-link" href="https://rarus.ru/1c-restoran/restart-platyezhnyy-terminal/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div>
+                                <hr class="divider">
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12" href="https://rarus.ru/1c-restoran/restart-depozitno-diskontnyy-server/" target="_blank">
+                                        <img class="img-responsive project-image" src="./assets/restart_dds.png" alt="RestArt: Deposit and discount server-Thumbnail" title="RestArt: Deposit and discount server." width="300" height="225">
+                                    </a>
+                                    <h3 class="title"><a href="https://rarus.ru/1c-restoran/restart-depozitno-diskontnyy-server/" target="_blank">RestArt: Deposit and discount server</a></h3>
+                                    <p class="summary">Automatic database replication between service instances<br>
+                                    <b>Technology Stack</b> - Delphi, PostgreSQL, REST<br>
+                                    <b>Team Size - </b> 1
+                                    </p>
+                                    <p><a class="more-link" href="https://rarus.ru/1c-restoran/restart-depozitno-diskontnyy-server/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
                                 </div>
 
-                                <!--//item-->
-                                <div class="item">
-                                    <h3 class="title"><a href="https://rohankhudedev.github.io/portfolio/?utm_source=chatgpt.com#">API Integration and Workflow Automation</a> </h3>
-                                    <p class="summary">The products functionality is to collect data from the Non-Standard API’s, compute the data, and integrate with traffic steer database. The predicting output will be automated solution.<b> <br>Technology Stack -</b> PHP, MySQL, HTML, CSS, Javascript</p>
-                                    <p><a class="more-link" href="https://rohankhudedev.github.io/portfolio/?utm_source=chatgpt.com#" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                </div>
-                                <!--//item-->
-
-                                <a class="btn btn-cta-secondary" href="https://www.linkedin.com/in/rohankhude/">More on Linkedin <i class="fa fa-chevron-right"></i></a>
+                                <a class="btn btn-cta-secondary" href="https://www.linkedin.com/in/%D0%B8%D0%B3%D0%BE%D1%80%D1%8C-%D1%81%D1%82%D0%BE%D0%B2%D0%BF%D0%B5%D1%86-8ba046271/">More on Linkedin <i class="fa fa-chevron-right"></i></a>
 
                             </div>
                             <!--//content-->
