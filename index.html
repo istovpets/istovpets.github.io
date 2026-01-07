@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script async="" src="./assets/saved_resource"></script>
-        <title>Igor Stovpets | Back-end Developer | Portfolio</title>
+<html lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Igor Stovpets | Back-end Developer | Portfolio</title>
         <!-- Meta -->
         
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -47,26 +46,7 @@
         <script type="text/javascript" async="" src="./assets/js"></script><script async="" src="./assets/analytics.js"></script><script src="./assets/github-calendar.min.js"></script>
         <!-- xxx  -->
 
-        <!-- For scrolling animation -->
-        <script src="./assets/jquery.min.js"></script>
-        <script type="text/javascript">
-            $( document ).ready( function() {
-                $( window ).scroll( function() {
-                    if( $( this ).scrollTop() > 300 )
-                    {
-                        $( '#scroll' ).fadeIn();
-                    }
-                    else
-                    {
-                        $( '#scroll' ).fadeOut();
-                    }
-                } );
-                $( '#scroll' ).click( function() {
-                    $( "html, body" ).animate( { scrollTop: 0 }, 600 );
-                    return false;
-                } );
-            } );
-        </script>
+        <!-- Scrolling animation is now at the end of the body -->
         <!---->
         <script type="application/ld+json">
             {
@@ -452,6 +432,26 @@
         <script type="text/javascript" src="./assets/github-activity.js"></script>
         <!-- custom js -->
         <script type="text/javascript" src="./assets/main.js"></script>
+
+        <!-- For scrolling animation -->
+        <script type="text/javascript">
+            $( document ).ready( function() {
+                $( window ).scroll( function() {
+                    if( $( this ).scrollTop() > 300 )
+                    {
+                        $( '#scroll' ).fadeIn();
+                    }
+                    else
+                    {
+                        $( '#scroll' ).fadeOut();
+                    }
+                } );
+                $( '#scroll' ).click( function() {
+                    $( "html, body" ).animate( { scrollTop: 0 }, 600 );
+                    return false;
+                } );
+            } );
+        </script>
     
 
 </body></html>
